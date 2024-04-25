@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kyrylomatkash/camp-renting/static/css/main.c1cad30a.css",
+    "main.js": "/kyrylomatkash/camp-renting/static/js/main.9a38bb5a.js",
+    "index.html": "/kyrylomatkash/camp-renting/index.html",
+    "main.c1cad30a.css.map": "/kyrylomatkash/camp-renting/static/css/main.c1cad30a.css.map",
+    "main.9a38bb5a.js.map": "/kyrylomatkash/camp-renting/static/js/main.9a38bb5a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1cad30a.css",
+    "static/js/main.9a38bb5a.js"
+  ]
+}
