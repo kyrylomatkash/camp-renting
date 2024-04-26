@@ -1,10 +1,11 @@
 import React, { lazy } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
-import NotFoundPage from 'pages/NotFound/NotFound';
+import NotFoundPage from './pages/NotFound/NotFound';
 const Home = lazy(() => import('./pages/Home/Home'));
 const Catalog = lazy(() => import('./pages/Catalog/Catalog'));
 const Favorites = lazy(() => import('./pages/Favorites/Favorites'));
+const Game = lazy(() => import('./components/Game/Game'));
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route index element={<Home />} />
         <Route path="/catalog" element={<Catalog />} />
         <Route path="/favorites" element={<Favorites />} />
+        <Route path="/game" element={<Game />} />
       </Route>
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
