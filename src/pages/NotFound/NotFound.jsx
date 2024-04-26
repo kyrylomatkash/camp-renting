@@ -5,6 +5,7 @@ import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 import { styled } from '@mui/system';
+import Game from 'components/Game/Game';
 
 const StyledContainer = styled(Container)({
   paddingTop: '64px',
@@ -70,6 +71,7 @@ const NotFoundPage = () => {
           Go to Home
         </StyledButton>
       </StyledButtonContainer>
+      <Game />
     </StyledContainer>
   );
 };
