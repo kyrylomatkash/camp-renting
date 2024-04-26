@@ -1,13 +1,35 @@
 {
   "files": {
-    "main.css": "/kyrylomatkash/camp-renting/static/css/main.c1cad30a.css",
-    "main.js": "/kyrylomatkash/camp-renting/static/js/main.9a38bb5a.js",
+    "main.css": "/kyrylomatkash/camp-renting/static/css/main.f36f8a87.css",
+    "main.js": "/kyrylomatkash/camp-renting/static/js/main.7b67471b.js",
+    "static/js/72.d6ebfaae.chunk.js": "/kyrylomatkash/camp-renting/static/js/72.d6ebfaae.chunk.js",
+    "static/css/739.d2a92cc3.chunk.css": "/kyrylomatkash/camp-renting/static/css/739.d2a92cc3.chunk.css",
+    "static/js/739.132f2653.chunk.js": "/kyrylomatkash/camp-renting/static/js/739.132f2653.chunk.js",
+    "static/css/426.d2a92cc3.chunk.css": "/kyrylomatkash/camp-renting/static/css/426.d2a92cc3.chunk.css",
+    "static/js/426.0c6ca328.chunk.js": "/kyrylomatkash/camp-renting/static/js/426.0c6ca328.chunk.js",
+    "static/css/416.526ae1d1.chunk.css": "/kyrylomatkash/camp-renting/static/css/416.526ae1d1.chunk.css",
+    "static/js/416.a68a2745.chunk.js": "/kyrylomatkash/camp-renting/static/js/416.a68a2745.chunk.js",
+    "static/js/961.cf449b00.chunk.js": "/kyrylomatkash/camp-renting/static/js/961.cf449b00.chunk.js",
+    "static/js/691.9d3c3375.chunk.js": "/kyrylomatkash/camp-renting/static/js/691.9d3c3375.chunk.js",
+    "static/media/Inter-SemiBold.ttf": "/kyrylomatkash/camp-renting/static/media/Inter-SemiBold.62dac3a5eb24f0f63baa.ttf",
+    "static/media/Inter-Medium.ttf": "/kyrylomatkash/camp-renting/static/media/Inter-Medium.87811ff72feb6c18580e.ttf",
+    "static/media/Inter-Regular.ttf": "/kyrylomatkash/camp-renting/static/media/Inter-Regular.a3fc71f5e14c147cedec.ttf",
+    "static/media/sprite.svg": "/kyrylomatkash/camp-renting/static/media/sprite.e7c0e09ece34ae3c72072c9deb921b54.svg",
     "index.html": "/kyrylomatkash/camp-renting/index.html",
-    "main.c1cad30a.css.map": "/kyrylomatkash/camp-renting/static/css/main.c1cad30a.css.map",
-    "main.9a38bb5a.js.map": "/kyrylomatkash/camp-renting/static/js/main.9a38bb5a.js.map"
+    "main.f36f8a87.css.map": "/kyrylomatkash/camp-renting/static/css/main.f36f8a87.css.map",
+    "main.7b67471b.js.map": "/kyrylomatkash/camp-renting/static/js/main.7b67471b.js.map",
+    "72.d6ebfaae.chunk.js.map": "/kyrylomatkash/camp-renting/static/js/72.d6ebfaae.chunk.js.map",
+    "739.d2a92cc3.chunk.css.map": "/kyrylomatkash/camp-renting/static/css/739.d2a92cc3.chunk.css.map",
+    "739.132f2653.chunk.js.map": "/kyrylomatkash/camp-renting/static/js/739.132f2653.chunk.js.map",
+    "426.d2a92cc3.chunk.css.map": "/kyrylomatkash/camp-renting/static/css/426.d2a92cc3.chunk.css.map",
+    "426.0c6ca328.chunk.js.map": "/kyrylomatkash/camp-renting/static/js/426.0c6ca328.chunk.js.map",
+    "416.526ae1d1.chunk.css.map": "/kyrylomatkash/camp-renting/static/css/416.526ae1d1.chunk.css.map",
+    "416.a68a2745.chunk.js.map": "/kyrylomatkash/camp-renting/static/js/416.a68a2745.chunk.js.map",
+    "961.cf449b00.chunk.js.map": "/kyrylomatkash/camp-renting/static/js/961.cf449b00.chunk.js.map",
+    "691.9d3c3375.chunk.js.map": "/kyrylomatkash/camp-renting/static/js/691.9d3c3375.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1cad30a.css",
-    "static/js/main.9a38bb5a.js"
+    "static/css/main.f36f8a87.css",
+    "static/js/main.7b67471b.js"
   ]
 }
