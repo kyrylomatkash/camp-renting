@@ -1,11 +1,10 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 import { styled } from '@mui/system';
-import Game from 'components/Game/Game';
 
 const StyledContainer = styled(Container)({
   paddingTop: '64px',
@@ -42,6 +41,19 @@ const StyledButton = styled(Button)({
 });
 
 const NotFoundPage = () => {
+  const [suggestedLinks, setSuggestedLinks] = useState([]);
+
+  useEffect(() => {
+    const fetchSuggestions = async () => {
+      const suggestions = await (Math.random() > 0.5
+        ? ['/catalog', '/favorites']
+        : ['/', '/about']);
+      setSuggestedLinks(suggestions);
+    };
+
+    fetchSuggestions();
+  }, []);
+
   return (
     <StyledContainer maxWidth="md">
       <StyledBox>
@@ -53,6 +65,21 @@ const NotFoundPage = () => {
           changed, or is temporarily unavailable.
         </StyledDescription>
       </StyledBox>
+      {suggestedLinks.length > 0 && (
+        <StyledBox>
+          <Typography variant="h6" gutterBottom>
+            Perhaps you were looking for:
+          </Typography>
+          <ul>
+            {suggestedLinks.map(link => (
+              <li key={link}>
+                <Link to={link}>{link}</Link>
+              </li>
+            ))}
+          </ul>
+        </StyledBox>
+      )}
+
       <StyledButtonContainer>
         <StyledButton
           component={Link}
@@ -71,7 +98,6 @@ const NotFoundPage = () => {
           Go to Home
         </StyledButton>
       </StyledButtonContainer>
-      <Game />
     </StyledContainer>
   );
 };

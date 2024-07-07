@@ -4,6 +4,7 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import HomeIcon from '@mui/icons-material/Home';
 import BookIcon from '@mui/icons-material/Book';
 import { HeaderStyled, NavList, NavItem, LinkStyled } from './Header.styled';
+import DescriptionIcon from '@mui/icons-material/Description';
 
 const Header = () => {
   return (
@@ -40,6 +41,17 @@ const Header = () => {
               color="primary"
             >
               Favorites
+            </Button>
+          </LinkStyled>
+        </NavItem>
+        <NavItem>
+          <LinkStyled to="/terms">
+            <Button
+              startIcon={<DescriptionIcon />}
+              variant="contained"
+              color="primary"
+            >
+              Terms
             </Button>
           </LinkStyled>
         </NavItem>
